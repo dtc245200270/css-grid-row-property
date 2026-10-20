@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    padding: 20px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    background-color: #38bdf8;
+    grid-row: 1 / 3;
+}
